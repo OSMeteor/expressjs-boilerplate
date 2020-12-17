@@ -5,6 +5,7 @@ expressjs-boilerplate
 #
 
 -   https://github.com/hapijs/joi  验证数据类型
+    - https://joi.dev/api/?v=17.3.0 
 
 -  https://github.com/tgriesser/knex#readme  操作mysql
 -  https://github.com/mpneuried/nodecache   本地缓存
