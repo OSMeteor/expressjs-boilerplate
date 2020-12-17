@@ -5,6 +5,7 @@ var cookieParser = require('cookie-parser');
 var lessMiddleware = require('less-middleware');
 var logger = require('morgan');
 var responseTime = require('response-time');
+var favicon = require('serve-favicon');
 // process.env.NODE_ENV === 'test'
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -17,6 +18,7 @@ app.set('view engine', 'ejs');
 
 app.use(logger('dev'));
 app.use(responseTime());
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
