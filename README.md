@@ -51,3 +51,10 @@ set DEBUG=myapp:* & npm start
    run the app:
      $ DEBUG=expressjs-boilerplate:* npm start
 ```
+### 集成 swagger
+```
+
+ http://localhost:3000/swagger-editor/ 
+http://localhost:3000/swagger/ 
+
+```
