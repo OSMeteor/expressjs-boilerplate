@@ -13,7 +13,7 @@ Promise.config({
 });
 
 
-var app = require('./app'); 
+var app = require('./app/app.js'); 
 var http = require('http');
 
 /**
