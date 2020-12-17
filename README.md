@@ -17,6 +17,10 @@ expressjs-boilerplate
 -  编写同步数据event
 -  mysql数据和redis 数据不一致
 
+```
+code msg  data 
+```
+
 
 
 

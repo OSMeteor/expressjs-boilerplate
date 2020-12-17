@@ -1,8 +1,17 @@
 #!/usr/bin/env node
 
-/**
- * Module dependencies.
- */
+global.Promise=require("bluebird");
+Promise.config({
+  // Enable warnings
+  warnings: false,
+  // Enable long stack traces
+  longStackTraces: true,
+  // Enable cancellation
+  cancellation: true,
+  // Enable monitoring
+  monitoring: true
+});
+
 
 var app = require('./app'); 
 var http = require('http');
